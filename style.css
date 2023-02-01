@@ -1,0 +1,150 @@
+BODY {
+    background: #282931;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Varela Round', sans-serif;
+    height: 100%;
+}
+
+canvas {
+    height: 100vh;
+    z-index: -10;
+    position: fixed;
+    top: 0px;
+}
+
+li {
+    color: #bbbbc4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+li:hover {
+    color: #fc3565;
+}
+
+h1 {
+    color: #fc3565;
+    padding-bottom: 0px;
+    margin-bottom: 1%;
+}
+
+.logo {
+    font-family: 'Monoton', cursive;
+    color: white;
+    font-size: 8rem;
+}
+
+p {
+    color: white;
+    font-size: 3rem;
+}
+
+.but {
+    width: 12%;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 9px;
+    padding: 20px 35px;
+}
+
+.but:hover {
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+
+a {
+    color: #bbbbc4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+a:hover {
+    color: #fc3565;
+}
+
+.top {
+    padding-bottom: 5rem;
+}
+
+.pulled ul li {
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1.8rem;
+}
+
+.pulled h1 {
+    color: white;
+    font-size: 3rem;
+}
+
+.pulled ul li span {
+    font-size: 1.2rem;
+}
+
+.footer {
+    padding-top: 5rem;
+}
+
+.footer p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+span.new {
+    background-color: #fc3565;
+    font-weight: 700;
+    padding: .2rem;
+    margin-left: .4rem;
+    color: #fff;
+}
+/* Mobile first queries */
+/* Larger than mobile */
+
+@media (min-width: 400px) {}
+/* Larger than phablet */
+
+@media (min-width: 550px) {}
+/* Larger than tablet */
+
+@media (min-width: 750px) {}
+/* Larger than desktop */
+
+@media (min-width: 1000px) {}
+/* Larger than Desktop HD */
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 4rem;
+    }
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    width: 400px;
+    position: relative;
+    height: 60px;
+}
+
+button {
+    font-style: unset;
+    color: white;
+    border-radius: 15px;
+    border-style: solid;
+    width: 15%;
+    background: linear-gradient(57deg, #00c6a7, #1e4d92);
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    color: white;
+    border-style: double;
+    border-radius: 15px;
+    background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
